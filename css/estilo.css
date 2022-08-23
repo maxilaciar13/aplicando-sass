@@ -1,0 +1,61 @@
+/* CSS */
+/* menu navbar */
+nav {
+  width: 100%;
+  height: 80px;
+  background-color: #814242; }
+
+/* titulo , subtitulo , logo */
+main {
+  width: 100%;
+  height: 100vh;
+  background-color: #bdebec;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+  main div {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    height: 500px; }
+  main h1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #a0b11f;
+    text-align: right; }
+  main h2 {
+    font: bold 20px , sans-serif;
+    color: #a0b11f; }
+
+/* imagenes de productos */
+section {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  section div {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: red;
+    background-color: #964e4e;
+    border: 8px solid #ddae58; }
+  section img {
+    width: 50%; }
+
+/* footer */
+footer {
+  height: 50px;
+  font-size: 15px;
+  color: black;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #bdebec; }
